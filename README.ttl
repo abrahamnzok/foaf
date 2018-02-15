@@ -1,24 +1,25 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ns0: <http://webns.net/mvcb/> .
-@prefix dbpedia-fr: <http://fr.dbpedia.org/resource/> .
-@prefix dbpedia-owl: <http://dbpedia.org/ontology/>
+@prefix dbpedia-fr : <http://fr.dbpedia.org/resource/> .
+@prefix dbpedia-owl : <http://dbpedia.org/ontologoy> .
 
-<http://github.com/Luctum>
+<http://github.com/abrahamnzok>
   a foaf:PersonalProfileDocument ;
-  foaf:maker <http://github.com/Luctum#me> ;
-  foaf:primaryTopic <http://github.com/Luctum#me> ;
+  foaf:maker <http://github.com/abrahamnzok#me> ;
+  foaf:primaryTopic <http://github.com/abrahamnzok#me> ;
   ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
   ns0:errorReportsTo <mailto:leigh@ldodds.com> .
 
-<http://github.com/Luctum#me>
+<http://github.com/abrahamnzok#me>
   a foaf:Person ;
-  foaf:name "Hugo Palla" ;
-  foaf:title "M." ;
-  foaf:givenname "Hugo" ;
-  foaf:family_name "Palla" ;
-  foaf:nick "Luctum" ;
-  dbpedia-owl:birthPlace dbpedia-fr:Caen ;
-  dbpedia-owl:location dbpedia-fr:Rennes ;
-  foaf:mbox_sha1sum "7982b8f7796b114b0572a5d34feef96c38424fc2" ;
-  foaf:homepage <https://github.com/Luctum> ;
-  foaf:schoolHomepage <https://istic.univ-rennes1.fr/> .
+  foaf:name "Abraham MUBANZO" ;
+  foaf:title "Mr" ;
+  foaf:givenname "Abraham" ;
+  foaf:family_name "MUBANZO" ;
+  foaf:nick "MUBANZO" ;
+  dbpedia-owl:birthPlace dbpedia-fr:Bujumbura ;
+  dbpedia-owl:country dbpedia-fr:Burundi ;
+  dbpedia-owl:birthDate "23-03-1994"
+  foaf:mbox_sha1sum "120e37a1677df80e13f8e7d8a6cd2c5f68d5b967" ;
+  foaf:homepage <http://github.com/github.com/abrahamnzok> ;
+  foaf:schoolHomepage <http://github.com/istic.univ-rennes1.fr> .

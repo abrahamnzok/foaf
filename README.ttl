@@ -17,9 +17,10 @@
   foaf:givenname "Abraham" ;
   foaf:family_name "MUBANZO" ;
   foaf:nick "MUBANZO" ;
+  foaf:knows <http://github.com/Luctum#me>
   dbpedia-owl:birthPlace dbpedia-fr:Bujumbura ;
   dbpedia-owl:country dbpedia-fr:Burundi ;
   dbpedia-owl:birthDate "23-03-1994"
   foaf:mbox_sha1sum "120e37a1677df80e13f8e7d8a6cd2c5f68d5b967" ;
   foaf:homepage <http://github.com/github.com/abrahamnzok> ;
-  foaf:schoolHomepage <http://github.com/istic.univ-rennes1.fr> .
+  foaf:schoolHomepage <https://istic.univ-rennes1.fr/> .
